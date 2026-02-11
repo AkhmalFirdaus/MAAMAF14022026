@@ -13,7 +13,7 @@ export default async function handler(req, res) {
         const uploader = fields.uploader ? fields.uploader[0] : "Anonymous";
 
         const formData = new FormData();
-        formData.append("chat_id", "@AlifFirdausAlbum2026_bot"); // Telegram channel username or ID
+        formData.append("chat_id", "+XF899XNhZjw0NWE1"); // Telegram channel username or ID
         formData.append("document", file, file.originalFilename);
         formData.append("caption", `Uploaded by: ${uploader}`);
 
