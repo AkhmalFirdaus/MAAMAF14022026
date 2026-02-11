@@ -4,7 +4,7 @@ import multiparty from "multiparty";
 
 export default async function handler(req, res) {
     // ===== CORS FIX =====
-    res.setHeader('Access-Control-Allow-Origin', '*'); // allow all origins
+    res.setHeader('Access-Control-Allow-Origin', 'https://akhmalfirdaus.github.io'); //'*'); // allow all origins
     res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
     res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
