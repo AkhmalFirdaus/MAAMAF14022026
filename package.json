@@ -1,0 +1,10 @@
+{
+  "name": "maamaf-upload",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "form-data": "^4.0.0",
+    "node-fetch": "^3.3.2",
+    "multiparty": "^4.2.3"
+  }
+}
